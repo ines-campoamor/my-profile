@@ -1,0 +1,111 @@
+body {
+	
+	background: #231F20;
+    padding: 60px;
+    padding color: white;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    width: 700px;
+    margin: 40px auto;
+}
+
+h1 {
+	color: #AD8350;
+	font-family: Helvetica;
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size: 60px;
+
+}
+
+a {
+	text-decoration: none;
+	color: red;
+	font-family: Helvetica;
+}
+
+a:hover {
+	color: #F3D3BD;
+	font-family: Helvetica;
+}
+.container {
+	width: 700px
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: white
+	padding: 40px
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1) ;
+	border-radius: 4px
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle { 
+border-radius: 50%; 
+}
+
+.btn-blue {
+	background-color: red;
+	color: white
+	padding: 15px 20px
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+#profilepicture
+{width: 500px
+	;}
+
+	color: #635C51;
+	@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+ 
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+.list-inline li {
+	display: inline 
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
